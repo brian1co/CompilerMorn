@@ -1,0 +1,4 @@
+<View width="1000" height="600" sceneColor="0xffffff" layers="1,1,0,0,第 1 层">
+  <Image url="png.startLoading.loading" x="114" y="395" layer="1" left="0" right="0" top="0" bottom="0" sizeGrid="28,28,28,28" var="bg"/>
+  <Image url="png.startLoading.loading1" x="423" y="246" layer="1" var="icon"/>
+</View>
