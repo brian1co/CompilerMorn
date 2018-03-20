@@ -1,1 +1,6 @@
-<View width="600" height="400" sceneColor="0xffffff"/>
+<View width="400" height="600" sceneColor="0xffffff" layers="1,1,0,0,第 1 层">
+  <Image url="png.main.tabBg" x="0" y="0" layer="1" sizeGrid="25,25,25,25" width="400" height="600"/>
+  <Panel layers="1,1,0,0,第 1 层" layer="1" width="418" height="600" vScrollBarSkin="png.comp.vscroll" visible="true" right="-18" x="0" y="0" var="panel">
+    <Tab skin="png.main.tab" x="0" y="0" layer="1" direction="vertical" var="tabs" mouseEnabled="false" labelBold="false" labelSize="40" labelColors="0xFFFFFF,0xFFFFFF,0xFFFFFF,0xFFFFFF" layers="1,1,0,0,第 1 层"/>
+  </Panel>
+</View>

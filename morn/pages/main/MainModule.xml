@@ -1,3 +1,5 @@
-<View sceneWidth="1000" sceneColor="0x0a3a62" layers="1,1,0,0,第 1 层" mouseEnabled="false">
-  <Image url="png.main.bg" x="22" y="136" layer="1" sizeGrid="20,20,20,38" left="-5" right="-5" top="-1" bottom="-10"/>
+<View sceneWidth="1000" sceneColor="0x0a3a62" layers="1,1,0,0,第 1 层" mouseEnabled="false" width="1000" height="610">
+  <Image url="png.main.bg" layer="1" sizeGrid="33,28,33,38" left="0" right="0" alpha="1" var="bg" bottom="-1" top="0"/>
+  <UIView source="main/LeftTab.xml" x="0" y="0" layer="1" runtime="com.ui.module.main.LeftTab" var="tabPanel"/>
+  <Box layers="1,1,0,0,第 1 层" layer="1" x="401" y="0" var="viewBox" width="600" height="600"/>
 </View>

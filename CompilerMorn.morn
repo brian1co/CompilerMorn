@@ -2,7 +2,7 @@
   <asynRes>img,temp,sound</asynRes>
   <unDealRes>embed</unDealRes>
   <resTypes>png,jpg</resTypes>
-  <resExportPath>../CompilerTool/bin-debug/assets/mornAssets</resExportPath>
+  <resExportPath>../CompilerTool/src/assets/mornAssets</resExportPath>
   <resCanCompress>0</resCanCompress>
   <resPublishQuality>80</resPublishQuality>
   <codeExportPath>../CompilerTool/src/mornUI</codeExportPath>
