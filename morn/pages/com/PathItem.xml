@@ -1,0 +1,5 @@
+<View width="500" height="30" sceneColor="0xffffff" layers="2,1,0,0,第 2 层;1,1,0,0,第 1 层">
+  <TextInput skin="png.comp.textinput" layer="2" font="Arial" y="4" left="0" right="100" x="2" align="right" var="input"/>
+  <Button label="···" skin="png.comp.button" x="407" y="3" layer="2" labelFont="Arial" width="30" var="liulanBtn"/>
+  <Button label="打开" skin="png.comp.button" x="442" y="3" layer="2" labelFont="Arial" width="50" var="dakaiBtn"/>
+</View>
