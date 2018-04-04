@@ -1,3 +1,10 @@
-<View width="600" height="600" sceneColor="0xffffff" layers="1,1,0,0,第 1 层">
-  <UIView source="com/TwoPathItem.xml" x="0" y="0" layer="1" var="item" runtime="com.ui.component.TwoPathItem"/>
+<View width="600" height="600" sceneColor="0xffffff" layers="1,1,0,0,第 1 层" mouseChildren="true" mouseEnabled="false">
+  <List layers="1,1,0,0,第 1 层" layer="1" var="list" spaceY="-20" mouseChildren="true" mouseEnabled="false" y="50" height="450">
+    <UIView source="com/TwoPathItem.xml" x="0" y="0" layer="1" runtime="com.ui.component.TwoPathItem" name="render" mouseChildren="true" mouseEnabled="false"/>
+    <VScrollBar skin="png.comp.vscroll" x="582" y="1" layer="1" width="17" height="599" name="scrollBar"/>
+  </List>
+  <Button label="开始同步" skin="png.comp.button" x="368" y="538" layer="1" width="185" height="45" labelSize="24" labelBold="true" labelFont="微软雅黑" var="btnCopy"/>
+  <Button label="测试" skin="png.comp.button" x="128" y="538" layer="1" width="185" height="45" labelSize="24" labelBold="true" labelFont="微软雅黑" var="btnTest"/>
+  <Button label="+" skin="png.comp.button" x="434" y="10" layer="1" width="40" height="40" labelBold="true" labelSize="44" var="btnPlus" disabled="true"/>
+  <Button label="-" skin="png.comp.button" x="504" y="10" layer="1" width="40" height="40" labelBold="true" labelSize="44" var="btnMinus" disabled="true"/>
 </View>
